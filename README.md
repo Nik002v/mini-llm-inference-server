@@ -1,6 +1,6 @@
 # Mini LLM Inference Server
 
-A small, working inference service built around FastAPI, PyTorch and Hugging Face. Requests enter a bounded FIFO queue; a scheduler groups them into static dynamic batches; one dedicated model thread performs padded prefill and autoregressive decoding with a KV cache. The HTTP event loop stays available while the model runs.
+A small, working inference service built around FastAPI, PyTorch and Hugging Face. Requests enter a bounded FIFO queue; a scheduler groups queued requests into batches; one dedicated model thread performs padded prefill and autoregressive decoding with a KV cache. The HTTP event loop stays available while the model runs.
 
 The implementation follows [SPEC.md](SPEC.md). It includes normal generation, real SSE streaming, deterministic LRU caching, metrics, cancellation, queue/request deadlines, shutdown, tests and real HTTP benchmarks. The optional OpenAI chat endpoint and Redis are intentionally outside this version.
 
@@ -62,7 +62,7 @@ flowchart TD
 * The **API** validates JSON and configuration limits and submits jobs. It never touches the model.
 * The **scheduler** owns the pending deque, futures, cache, metrics and deadline monitor on the event loop. It sends a batch when full or when the oldest pending arrival reaches `BATCH_WAIT_MS`. Requests queued during an active batch are dispatched as soon as the model is available if their window already elapsed.
 * The **worker** owns the model/tokenizer on a single executor thread. It left-pads prompts and supplies attention masks and per-row position IDs. Temperature, top-p, output budgets and EOS are handled per row, so different sampling settings can share a batch.
-* This is **static dynamic batching**, not continuous batching: new rows do not join a batch already decoding. Finished/cancelled rows remain padded in that batch until all peers stop. Cancellation is checked between forward passes and cannot interrupt an in-progress PyTorch kernel.
+* The scheduler forms each batch dynamically from queued requests, but that batch remains fixed during decoding. New rows do not join a batch already in progress, unlike continuous batching. Finished/cancelled rows remain padded in that batch until all peers stop. Cancellation is checked between forward passes and cannot interrupt an in-progress PyTorch kernel.
 * An extremely long padded combination that exceeds the model context is conservatively split into individual runs. The batch-size metric reports scheduler dispatch sizes, not the number of model forward calls. Keep `MAX_INPUT_TOKENS + MAX_OUTPUT_TOKENS` within the model context to avoid this rare fallback.
 
 ## Endpoints and streaming contract
