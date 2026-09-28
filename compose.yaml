@@ -1,0 +1,16 @@
+services:
+  inference:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      MODEL_NAME: ${MODEL_NAME:-HuggingFaceTB/SmolLM2-135M-Instruct}
+      DEVICE: cpu
+      MAX_BATCH_SIZE: ${MAX_BATCH_SIZE:-8}
+      BATCH_WAIT_MS: ${BATCH_WAIT_MS:-20}
+      CACHE_SIZE: ${CACHE_SIZE:-128}
+    volumes:
+      - model-cache:/models
+    stop_grace_period: 180s
+volumes:
+  model-cache:

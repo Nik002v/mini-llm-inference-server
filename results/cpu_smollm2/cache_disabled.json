@@ -1,0 +1,305 @@
+{
+  "timestamp": "2026-09-28T03:14:36.955123+00:00",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "config": {
+    "model": "HuggingFaceTB/SmolLM2-135M-Instruct@12fd25f77366fa6b3b4b768ec3050bf629380bac",
+    "max_batch_size": 8,
+    "batch_wait_ms": 20.0,
+    "cache_size": 0
+  },
+  "concurrency": 8,
+  "requests": 16,
+  "stream": false,
+  "repeat": true,
+  "prompt_words_requested": 24,
+  "max_output_tokens": 12,
+  "successful": 16,
+  "failed": 0,
+  "errors": {},
+  "elapsed_s": 16.419380799983628,
+  "requests_per_s": 0.9744581841975402,
+  "generated_tokens_per_s": 11.693498210370482,
+  "delivered_tokens_per_s": 11.693498210370482,
+  "latency_p50_ms": 8199.831050005741,
+  "latency_p95_ms": 10140.585575005389,
+  "latency_p99_ms": 10141.812395022134,
+  "ttft_p50_ms": null,
+  "ttft_p95_ms": null,
+  "queue_mean_ms": 2811.050812495523,
+  "average_batch_size": 4.0,
+  "cache_hit_ratio": null,
+  "records": [
+    {
+      "index": 0,
+      "latency_ms": 3279.51480000047,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "5f16da4fbcc347bdb356fee35c2db4fc",
+        "text": " Explain how a computer manages memory. Explain how a computer manages",
+        "input_tokens": 28,
+        "output_tokens": 12,
+        "latency_ms": 3267.861599975731,
+        "queue_time_ms": 12.788899999577552,
+        "ttft_ms": 615.4703000211157,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 1,
+      "latency_ms": 8264.878099958878,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "551561f08f164332932f65241418d663",
+        "text": " Explain how a computer manages memory. Explain how a computer manages",
+        "input_tokens": 28,
+        "output_tokens": 12,
+        "latency_ms": 8223.049099964555,
+        "queue_time_ms": 3247.0563999959268,
+        "ttft_ms": 4535.273899964523,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 2,
+      "latency_ms": 8261.983500036877,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "1a9b0e50e85a48d7973cadeb667bd016",
+        "text": " Explain how a computer manages memory. Explain how a computer manages",
+        "input_tokens": 28,
+        "output_tokens": 12,
+        "latency_ms": 8223.042599973269,
+        "queue_time_ms": 3249.516899988521,
+        "ttft_ms": 4536.595199955627,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 3,
+      "latency_ms": 3281.148200039752,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "10e7bd2ea9dd48c8a85bfbde4d2b3b30",
+        "text": " Explain how a computer manages memory. Explain how a computer manages",
+        "input_tokens": 28,
+        "output_tokens": 12,
+        "latency_ms": 3259.3789999955334,
+        "queue_time_ms": 0.36810000892728567,
+        "ttft_ms": 605.1668000291102,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 4,
+      "latency_ms": 8243.616299994756,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "16d7977e397c4687bc6066f72208e0f4",
+        "text": " Explain how a computer manages memory. Explain how a computer manages",
+        "input_tokens": 28,
+        "output_tokens": 12,
+        "latency_ms": 8221.168799966108,
+        "queue_time_ms": 3258.7116999784485,
+        "ttft_ms": 4540.0857999920845,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 5,
+      "latency_ms": 8246.879400045145,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "5f03d721279246e28b9863dca67dc82b",
+        "text": " Explain how a computer manages memory. Explain how a computer manages",
+        "input_tokens": 28,
+        "output_tokens": 12,
+        "latency_ms": 8221.826800028794,
+        "queue_time_ms": 3257.0363000268117,
+        "ttft_ms": 4539.948599995114,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 6,
+      "latency_ms": 8250.362700026017,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "8ffa1cd2d9ea419dbc36be7d6140b3fb",
+        "text": " Explain how a computer manages memory. Explain how a computer manages",
+        "input_tokens": 28,
+        "output_tokens": 12,
+        "latency_ms": 8219.945699966047,
+        "queue_time_ms": 3252.941099985037,
+        "ttft_ms": 4536.978199961595,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 7,
+      "latency_ms": 8255.726099945605,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "235611abdbb045d8a3fc6be495ce92c6",
+        "text": " Explain how a computer manages memory. Explain how a computer manages",
+        "input_tokens": 28,
+        "output_tokens": 12,
+        "latency_ms": 8221.888699976262,
+        "queue_time_ms": 3252.164500008803,
+        "ttft_ms": 4537.325499986764,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 8,
+      "latency_ms": 10142.11910002632,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "9dabb9b09cde41d6b7027d479466fe67",
+        "text": " Explain how a computer manages memory. Explain how a computer manages",
+        "input_tokens": 28,
+        "output_tokens": 12,
+        "latency_ms": 10136.3599000033,
+        "queue_time_ms": 4979.483300005086,
+        "ttft_ms": 6676.033700001426,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 9,
+      "latency_ms": 10140.074399998412,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "a6d8fb2d6a4741699f9836b427f8ff8b",
+        "text": " Explain how a computer manages memory. Explain how a computer manages",
+        "input_tokens": 28,
+        "output_tokens": 12,
+        "latency_ms": 10135.981199971866,
+        "queue_time_ms": 4977.526400005445,
+        "ttft_ms": 6675.610799982678,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 10,
+      "latency_ms": 5177.732400014065,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "64e662e7e06c460e80f663b7747b2844",
+        "text": " Explain how a computer manages memory. Explain how a computer manages",
+        "input_tokens": 28,
+        "output_tokens": 12,
+        "latency_ms": 5170.085799996741,
+        "queue_time_ms": 10.491900029592216,
+        "ttft_ms": 1710.2405999903567,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 11,
+      "latency_ms": 5176.100199983921,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "943b8fcef39a485a8dd1e8dd1f6378d3",
+        "text": " Explain how a computer manages memory. Explain how a computer manages",
+        "input_tokens": 28,
+        "output_tokens": 12,
+        "latency_ms": 5164.518199977465,
+        "queue_time_ms": 3.4700999967753887,
+        "ttft_ms": 1704.4556000037119,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 12,
+      "latency_ms": 5174.351800000295,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "d396668c308a4921bc9402600c3d0d54",
+        "text": " Explain how a computer manages memory. Explain how a computer manages",
+        "input_tokens": 28,
+        "output_tokens": 12,
+        "latency_ms": 5163.273799989838,
+        "queue_time_ms": 0.8723000064492226,
+        "ttft_ms": 1704.7353999805637,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 13,
+      "latency_ms": 8156.045800016727,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "f7310e50d3514da783a1eba428eed888",
+        "text": " Explain how a computer manages memory. Explain how a computer manages",
+        "input_tokens": 28,
+        "output_tokens": 12,
+        "latency_ms": 8144.640900020022,
+        "queue_time_ms": 5160.405399976298,
+        "ttft_ms": 5885.103199980222,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 14,
+      "latency_ms": 8154.432800016366,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "5e203e7b8b57410bada0b51d1721b194",
+        "text": " Explain how a computer manages memory. Explain how a computer manages",
+        "input_tokens": 28,
+        "output_tokens": 12,
+        "latency_ms": 8143.74869997846,
+        "queue_time_ms": 5157.811599958222,
+        "ttft_ms": 5883.334100013599,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 15,
+      "latency_ms": 8153.5361999995075,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "43c5e9ee15f8449b916e498bc5ed0c03",
+        "text": " Explain how a computer manages memory. Explain how a computer manages",
+        "input_tokens": 28,
+        "output_tokens": 12,
+        "latency_ms": 8143.597899994347,
+        "queue_time_ms": 5156.16809995845,
+        "ttft_ms": 5882.484200003091,
+        "finish_reason": "length",
+        "cached": false
+      }
+    }
+  ]
+}

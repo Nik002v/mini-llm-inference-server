@@ -1,0 +1,305 @@
+{
+  "timestamp": "2026-09-28T03:11:01.487688+00:00",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "config": {
+    "model": "HuggingFaceTB/SmolLM2-135M-Instruct@12fd25f77366fa6b3b4b768ec3050bf629380bac",
+    "max_batch_size": 8,
+    "batch_wait_ms": 20.0,
+    "cache_size": 0
+  },
+  "concurrency": 8,
+  "requests": 16,
+  "stream": false,
+  "repeat": false,
+  "prompt_words_requested": 24,
+  "max_output_tokens": 12,
+  "successful": 16,
+  "failed": 0,
+  "errors": {},
+  "elapsed_s": 18.0167427000124,
+  "requests_per_s": 0.8880628572216324,
+  "generated_tokens_per_s": 10.656754286659588,
+  "delivered_tokens_per_s": 10.656754286659588,
+  "latency_p50_ms": 8318.15184999141,
+  "latency_p95_ms": 11681.28470001102,
+  "latency_p99_ms": 11681.687180037261,
+  "ttft_p50_ms": null,
+  "ttft_p95_ms": null,
+  "queue_mean_ms": 2406.4843250125705,
+  "average_batch_size": 4.0,
+  "cache_hit_ratio": null,
+  "records": [
+    {
+      "index": 0,
+      "latency_ms": 3413.1980999954976,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "c1f89ee8b9094c87b028cba51ec6b740",
+        "text": " \nA computer can be used to store data in a",
+        "input_tokens": 33,
+        "output_tokens": 12,
+        "latency_ms": 3403.1863000127487,
+        "queue_time_ms": 17.516100022476166,
+        "ttft_ms": 989.0058999881148,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 1,
+      "latency_ms": 8336.163500032853,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "47da63f964914e41add0c8e9abf4b8b9",
+        "text": " A computer can only manage memory in one way:\n1",
+        "input_tokens": 33,
+        "output_tokens": 12,
+        "latency_ms": 8293.94930001581,
+        "queue_time_ms": 3380.3376000141725,
+        "ttft_ms": 4626.431100012269,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 2,
+      "latency_ms": 8329.327900020871,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "9c1b8eb147074d9f9af1204871a859e7",
+        "text": "\nA computer can be used to play a game. Explain",
+        "input_tokens": 33,
+        "output_tokens": 12,
+        "latency_ms": 8291.65239998838,
+        "queue_time_ms": 3381.2839000020176,
+        "ttft_ms": 4626.439599960577,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 3,
+      "latency_ms": 3414.919800008647,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "672e76a0ebd943ca9559e12b4d8bbc69",
+        "text": "\nA computer can be used to play a game. Explain",
+        "input_tokens": 33,
+        "output_tokens": 12,
+        "latency_ms": 3389.760899997782,
+        "queue_time_ms": 2.3577000247314572,
+        "ttft_ms": 975.9721999871545,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 4,
+      "latency_ms": 3415.8927999669686,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "0a3e98fbc2ad4423a689114aa8777796",
+        "text": "\nA computer can be used to play a game. Explain",
+        "input_tokens": 33,
+        "output_tokens": 12,
+        "latency_ms": 3390.092400019057,
+        "queue_time_ms": 0.6759000243619084,
+        "ttft_ms": 975.9412999846973,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 5,
+      "latency_ms": 8316.25350000104,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "9004e50a61ea4409a1fa7c3873429c57",
+        "text": "\nA computer can be used to play a game. Explain",
+        "input_tokens": 33,
+        "output_tokens": 12,
+        "latency_ms": 8288.960400037467,
+        "queue_time_ms": 3390.6600000336766,
+        "ttft_ms": 4631.924499990419,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 6,
+      "latency_ms": 8320.050199981779,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "9f5679b3b9b94d61947205e11a3ae60c",
+        "text": "\nA computer can be used to play a game. Explain",
+        "input_tokens": 33,
+        "output_tokens": 12,
+        "latency_ms": 8289.45310000563,
+        "queue_time_ms": 3387.1412000153214,
+        "ttft_ms": 4629.95500001125,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 7,
+      "latency_ms": 8323.216599994339,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "ecc90decb163463590612eea2d3ba4c6",
+        "text": "\nA computer can be used to play a game. Explain",
+        "input_tokens": 33,
+        "output_tokens": 12,
+        "latency_ms": 8290.261000045575,
+        "queue_time_ms": 3384.501300053671,
+        "ttft_ms": 4628.538700053468,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 8,
+      "latency_ms": 11681.787800043821,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "901703ab66944ea3afa6c2d1db808d8d",
+        "text": "\nA computer can be used to play games. Explain how",
+        "input_tokens": 33,
+        "output_tokens": 12,
+        "latency_ms": 11673.504700011108,
+        "queue_time_ms": 4921.334800019395,
+        "ttft_ms": 7254.760499985423,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 9,
+      "latency_ms": 11679.981799970847,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "ed48a5f4ba9a428cba746cae1b4bf3c8",
+        "text": "\nA computer can be used to play games. Explain how",
+        "input_tokens": 33,
+        "output_tokens": 12,
+        "latency_ms": 11672.080199990887,
+        "queue_time_ms": 4917.413500021212,
+        "ttft_ms": 7252.350100025069,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 10,
+      "latency_ms": 11681.117000000086,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "1ea30d18362645a6b39e3ac3804374e4",
+        "text": "\nA computer can be used to store data in a computer",
+        "input_tokens": 34,
+        "output_tokens": 12,
+        "latency_ms": 11673.155400028918,
+        "queue_time_ms": 4915.975600015372,
+        "ttft_ms": 7252.235200023279,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 11,
+      "latency_ms": 6783.390700002201,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "470673c53c27435489861ce762dc7f89",
+        "text": "\nA computer can be used to store data in a computer",
+        "input_tokens": 34,
+        "output_tokens": 12,
+        "latency_ms": 6773.339900013525,
+        "queue_time_ms": 14.150400005746633,
+        "ttft_ms": 2352.06449998077,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 12,
+      "latency_ms": 6780.430199985858,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "bea7acbc10da452c90fb8ccd8ff96509",
+        "text": " Explain how a computer manages memory.\n\nA computer manages",
+        "input_tokens": 34,
+        "output_tokens": 12,
+        "latency_ms": 6772.030599997379,
+        "queue_time_ms": 11.016300006303936,
+        "ttft_ms": 2350.4929000046104,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 13,
+      "latency_ms": 6780.759699991904,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "8c8ce82123514b7887c1184b25e696c3",
+        "text": "\nA computer can be used to store data in a computer",
+        "input_tokens": 34,
+        "output_tokens": 12,
+        "latency_ms": 6770.718700019643,
+        "queue_time_ms": 7.736100000329316,
+        "ttft_ms": 2349.5893999934196,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 14,
+      "latency_ms": 6780.401399999391,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "e27d1a8ce7c7434b8c555d53b84f905c",
+        "text": "\nA computer can be used to store data in a computer",
+        "input_tokens": 34,
+        "output_tokens": 12,
+        "latency_ms": 6768.348199955653,
+        "queue_time_ms": 3.1712999916635454,
+        "ttft_ms": 2346.7275999719277,
+        "finish_reason": "length",
+        "cached": false
+      }
+    },
+    {
+      "index": 15,
+      "latency_ms": 9679.610199993476,
+      "client_ttft_ms": null,
+      "error": null,
+      "result": {
+        "request_id": "c11229a1e7984453b262a3dcadcf6fd4",
+        "text": "\nA computer can be used to store data in a computer",
+        "input_tokens": 34,
+        "output_tokens": 12,
+        "latency_ms": 9672.413599968422,
+        "queue_time_ms": 6768.477499950677,
+        "ttft_ms": 7382.8605999588035,
+        "finish_reason": "length",
+        "cached": false
+      }
+    }
+  ]
+}
